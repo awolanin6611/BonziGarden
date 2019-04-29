@@ -11,3 +11,8 @@ flex: 1 1 auto;
 .image{
    margin-right: 50px;
 }
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
