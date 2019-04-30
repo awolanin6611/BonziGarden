@@ -17,7 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 const routes = [
   { path: 'login', component: LoginComponent },
-]
+  {path: 'about'}
+  
+];
 @NgModule({
   declarations: [
     AppComponent,
