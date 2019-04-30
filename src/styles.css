@@ -6,13 +6,32 @@ flex: 1 1 auto;
 }
 .nav-btn{
     margin-right: 0.5em;
-    background-color: darkolivegreen;
+    /* margin: 15px;
+    padding: 10px; */
+    background-color: darkslategrey;
 }
 .image{
    margin-right: 50px;
 }
 
+.logo {
+    max-width: 250px;
+}
+
+.about-company{
+    vertical-align: middle; 
+    max-width: 500px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.body-wrapper{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
 body, html{
     font-family: 'Nunito', sans-serif;
-    font-size: 30px;
+    font-size: 1.2em;
+    background-color: darkslategrey;
 }
