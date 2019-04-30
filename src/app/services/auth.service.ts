@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 import { Observable, Subject } from 'rxjs';
 import { longStackSupport } from 'q';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-const Api_Url = `https://efa-gardenapp-backend.herokuapp.com/api/product`;
+const Api_Url = `https://efa-gardenapp-backend.herokuapp.com/api/auth/login`;
 @Injectable()
 export class AuthService {
   userInfo: Token;
